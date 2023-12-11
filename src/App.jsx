@@ -59,7 +59,7 @@ function App() {
                         <div className="relative w-full h-0.5">
                             <button
                                 type="button"
-                                className="fixed left-1/2 translate-x-7 -translate-y-1/2 border-2 border-black rounded-md bg-black  px-2 py-1.5"
+                                className="absolute left-1/2 translate-x-7 -translate-y-1/2 border-2 border-black rounded-md bg-black  px-2 py-1.5"
                                 onClick={swap}
 
                             >
@@ -82,7 +82,7 @@ function App() {
                             />
                         </div>
                         <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
-                            Convert {from.toUpperCase()} to {to.toUpperCase()}
+                            Convert {from.toUpperCase()} To {to.toUpperCase()}
                         </button>
                     </form>
                 </div>
